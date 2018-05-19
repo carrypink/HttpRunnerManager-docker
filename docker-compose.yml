@@ -12,8 +12,7 @@ services:
     environment:
       - MYSQL_ROOT_PASSWORD=123456
       - MYSQL_DATABASE=httprunner
-      - MYSQL_USER=root
-      - MYSQL_PASSWORD=123456
+
 
   nginx:
     image: nginx:alpine
