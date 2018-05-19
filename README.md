@@ -1,7 +1,7 @@
 # HttpRunnerManager-docker
 HttpRunnerManager-mysq-nginx-docker
 
-*本项目仅对应HttpRunnerManager项目的docker配置，只含基本功能的docker配置，不涉及worker等*
+*本项目对应HttpRunnerManager项目的docker配置，只含基本功能的docker配置，不涉及worker等；*
 ##### 1、git clone HttpRunnerManager项目
 ```
 cd ~/Github
