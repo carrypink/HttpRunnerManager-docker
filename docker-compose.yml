@@ -6,8 +6,10 @@ services:
     command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
     volumes:
       - ./mysql:/var/lib/mysql
-    expose:
-      - "3306"
+#    expose:
+#      - "3306"
+    ports:
+      - "4306:3306"
 #    restart: always
     environment:
       - MYSQL_ROOT_PASSWORD=123456
